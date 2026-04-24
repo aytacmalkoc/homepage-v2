@@ -1,48 +1,70 @@
-<p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
-</p>
-<h1 align="center">
-  gazijarin.com - v2
-</h1>
-<p align="center">
-  The second iteration of <a href="https://gazijarin.com" target="_blank">gazijarin.com</a> built with Vite and React 19, leveraging Material UI v6 and Bootstrap 5.
-</p>
-<p align="center">
-  <img src="src/assets/view.png" width="100%" alt="gazi-v2-view"/>
-</p>
+# homepage-v2
 
-## 🛠 set-up
+Personal portfolio website for **Aytac Malkoc**, built with React and Vite.
 
-1. Install the dependencies
+Live site: [www.aytacmalkoc.com.tr](https://www.aytacmalkoc.com.tr)
 
-   ```sh
-   npm install
-   ```
+## Original Repository Reference
 
-2. Start the development server
+This project is adapted from the original `Gazi-V2` repository:
+[https://github.com/gazijarin/Gazi-V2](https://github.com/gazijarin/Gazi-V2)
 
-   ```sh
-   npm run dev
-   ```
+## Tech Stack
 
-## 🚀 build and run for production
+- React 19
+- Vite 8
+- React Router
+- React Bootstrap + Bootstrap 5
+- Material UI (icons/components)
+- i18next + react-i18next for localization
 
-1. Generate a full static production build
+## Features
 
-   ```sh
-   npm run build
-   ```
+- Responsive single-page portfolio layout
+- Multilingual content (English and Turkish)
+- Structured content sources under `src/data`
+- Modular sections for intro, about, experience, projects, and credits
 
+## Getting Started
 
-## 🎨 color codes
+1. Install dependencies:
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://placehold.co/15/0a192f/0a192f.png) `#0a192f` |
-| Light Navy     | ![#112240](https://placehold.co/15/112240/112240.png) `#112240` |
-| Lightest Navy  | ![#233554](https://placehold.co/15/233554/233554.png) `#233554` |
-| Slate          | ![#8892b0](https://placehold.co/15/8892b0/8892b0.png) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://placehold.co/15/a8b2d1/a8b2d1.png) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://placehold.co/15/ccd6f6/ccd6f6.png) `#ccd6f6` |
-| White          | ![#e6f1ff](https://placehold.co/15/e6f1ff/e6f1ff.png) `#e6f1ff` |
-| Green          | ![#64ffda](https://placehold.co/15/64ffda/64ffda.png) `#64ffda` |
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Open the local URL shown in the terminal (usually `http://localhost:5173`).
+
+## Build for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+  components/    Reusable UI sections
+  data/          Portfolio content (projects, experiences)
+  i18n/          Localization config and translation files
+  styles/        Section-based styles
+  App.jsx        Main page composition
+  main.jsx       App bootstrap and providers
+public/
+  assets/        Static assets used by the portfolio
+```
