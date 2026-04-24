@@ -5,6 +5,8 @@ import "./index.css";
 import "./i18n/i18n";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 console.log("App mounting...");
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -13,5 +15,7 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    <Analytics />
+    <SpeedInsights />
   </React.StrictMode>
 );

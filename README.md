@@ -55,6 +55,24 @@ Preview the production build locally:
 npm run preview
 ```
 
+## Analytics Setup
+
+This project includes:
+
+- Vercel Analytics (`@vercel/analytics`)
+- Vercel Speed Insights (`@vercel/speed-insights`)
+- Google Analytics 4 (`gtag.js`)
+
+### Environment Variable
+
+Create a `.env` file in the project root (you can copy from `.env.example`) and set:
+
+```bash
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+If `VITE_GA_MEASUREMENT_ID` is missing, GA4 tracking is skipped automatically.
+
 ## Project Structure
 
 ```text
