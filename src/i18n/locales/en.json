@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "software": "Software"
+  },
+  "intro": {
+    "greeting": "hi, ",
+    "suffix": " here.",
+    "desc": "Senior Full Stack Developer and maker based in İzmir. I architect robust Laravel systems and CRM solutions by day, and build custom IoT devices or 3D-printed prototypes by night. I'm driven by clean code, automation, and the occasional hum of a 3D printer working on a new experiment.",
+    "sayHi": "Say hi!"
+  },
+  "about": {
+    "title": "/ about me",
+    "para1": "I am a Senior Full Stack Developer and Maker currently focusing on independent projects and freelance solutions. Throughout my career, I've architected lead management engines, advanced CRM systems, and high-performance web applications for companies like Batigöz Health Group and otelfiyat.com.",
+    "para2": "My core focus is building automated business processes through robust RESTful APIs and user-centric interfaces.",
+    "techStackIntro": "Here are some technologies I have been working with:"
+  },
+  "experience": {
+    "title": "/ experience",
+    "jobs": {
+      "batigoz": {
+        "desc": [
+          "Contributed to the development of internal healthcare management systems and patient-facing modules.",
+          "Worked on full-stack features using modern web technologies, improving system performance and user experience."
+        ]
+      },
+      "idealtur": {
+        "desc": [
+          "Took part in the development of CRM & Admin modules in the otelfiyat.com project of Ideal Tur, a company serving in the tourism sector.",
+          "Designed and implemented RESTful APIs and backend services to support booking and reservation workflows."
+        ]
+      },
+      "attelia": {
+        "desc": [
+          "Participated in the development and maintenance of company websites and applications.",
+          "Led the development of new projects from planning through deployment, collaborating closely with design and product teams."
+        ]
+      },
+      "upperearth": {
+        "desc": [
+          "Carried out many corporate works in the design agency as a co-founder.",
+          "Gained extensive experience in company management, client relations, and delivering end-to-end web solutions."
+        ]
+      },
+      "fikir": {
+        "desc": [
+          "Took part in multiple projects, providing support for frontend design and backend management.",
+          "Developed interpersonal and professional skills while working alongside experienced developers."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "/ software",
+    "viewAll": "View all projects",
+    "items": {
+      "reactUseStorage": {
+        "desc": "A handy React hook for using the localStorage property."
+      },
+      "jsonDb": {
+        "desc": "Easy, fast local database system with JSON."
+      },
+      "nodeMailRedirector": {
+        "desc": "A Node.js application that monitors an IMAP email inbox and automatically forwards emails containing specific keywords to designated recipients."
+      },
+      "phpUse": {
+        "desc": "A simple tool that allows you to easily switch between multiple PHP versions on Windows."
+      },
+      "novaToast": {
+        "desc": "Nova Toast is a modern, lightweight, and framework-agnostic notification library designed for high-performance web applications."
+      },
+      "arduinoMonitorAmbientLight": {
+        "desc": "Arduino based monitor ambient light management application."
+      }
+    }
+  },
+  "credits": {
+    "builtBy": "Built and designed by Aytac Malkoc, based on",
+    "designerName": "Gazi Jarin's design",
+    "rights": "All rights reserved."
+  }
+}

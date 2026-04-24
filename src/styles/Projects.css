@@ -67,15 +67,15 @@
   border-bottom: none !important;
 }
 .folder-icon {
-  color: var(--green-bright);
+  color: var(--yellow);
 }
 
 .explore-link {
   order: 2;
   margin-left: 20px;
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
-  color: var(--green-bright);
+  color: var(--yellow);
   text-decoration: none;
   transition: all 0.25s ease;
   white-space: nowrap;
@@ -98,7 +98,7 @@
   margin-top: 6px;
 }
 .github-icon:hover {
-  color: var(--green-bright);
+  color: var(--yellow);
 }
 
 .open-icon {
@@ -106,7 +106,7 @@
 }
 
 .card-title {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--lightest-slate);
   font-size: 24px;
   font-weight: bold;
@@ -114,14 +114,14 @@
 
 
 .card-desc {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--slate);
   font-size: 18px;
   padding-bottom: 40px;
 }
 
 .card-tech {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--slate);
   font-size: 16px;
 }
@@ -158,7 +158,7 @@
 }
 
 .carousel-caption {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   max-width: 500px;
   right: unset !important;
   left: 25% !important;
@@ -172,21 +172,21 @@
 }
 
 .carousel-caption p {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: var(--lightest-slate);
 }
 
 .carousel-caption p.techStack {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: var(--green-bright);
+  color: var(--yellow);
 }
 
 .carousel-indicators .active {
-  background-color: var(--green-bright);
+  background-color: var(--yellow);
 }
 
 @media only screen and (max-width: 600px) {

@@ -20,13 +20,13 @@
 .about-description li {
   position: relative;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--slate);
 }
 
 .about-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--yellow);
   position: absolute;
   left: 0;
 }
@@ -37,10 +37,10 @@
 }
 
 .about-description {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--slate);
   max-width: 600px;
-  font-size: 22px;
+  font-size: 18px;
   text-align: justify;
   margin: 0;
 }

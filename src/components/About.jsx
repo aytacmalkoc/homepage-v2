@@ -1,42 +1,30 @@
 import React from "react";
 import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const one = (
-    <p>
-      I am currently a <b>Software Engineer</b> at
-      <a href="https://www.ads.google.com/"> Google</a>, where I help build
-      autobidder models that make Google Search money. Previously, I was at{" "}
-      <a href="https://www.aboutamazon.com/"> Amazon</a> and{" "}
-      <a href="https://newsroom.pinterest.com/company/"> Pinterest.</a>
-    </p>
-  );
-  const two = (
-    <p>
-      In my free time, I’m nerdy about tech gadgets, love literary fiction, and
-      play way too many battle royale games. Oh, I make content too.
-    </p>
-  );
+  const { t } = useTranslation();
 
   const techStack = [
-    "Python",
-    "Typescript",
-    "React.js",
-    "Java",
-    "Javascript ES6+",
+    "PHP & Laravel",
+    "JavaScript (ES6+) & React & Next.js",
+    "MySQL & PostgreSQL",
+    "RESTful APIs",
+    "React Native & Flutter",
   ];
 
   return (
     <div id="about">
       <FadeInSection>
         <div className="section-header ">
-          <span className="section-title">/ about me</span>
+          <span className="section-title">{t("about.title")}</span>
         </div>
         <div className="about-content">
           <div className="about-description">
-            {one}
-            {"Here are some technologies I have been working with:"}
+            <p>{t("about.para1")}</p>
+            <p>{t("about.para2")}</p>
+            {t("about.techStackIntro")}
             <ul className="tech-stack">
               {techStack.map((techItem, i) => (
                 <FadeInSection key={i} delay={(i + 1) * 100 + "ms"}>
@@ -44,10 +32,9 @@ const About = () => {
                 </FadeInSection>
               ))}
             </ul>
-            {two}
           </div>
           <div className="about-image">
-            <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+            <img alt="Aytac Malkoc" src={"/assets/me.png"} />
           </div>
         </div>
       </FadeInSection>

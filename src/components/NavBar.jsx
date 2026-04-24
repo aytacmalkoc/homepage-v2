@@ -3,10 +3,11 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import BorderColorIcon from "@mui/icons-material/BorderColor";
 import "../styles/NavBar.css";
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
+  const { t, i18n } = useTranslation();
   const [expanded, setExpanded] = useState(false);
   const scrollPos = useRef(0);
 
@@ -27,6 +28,11 @@ const NavBar = () => {
     }
   }, [expanded]);
 
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  };
+
   return (
     <Navbar
       fixed="top"
@@ -37,33 +43,41 @@ const NavBar = () => {
       onToggle={(isExpanded) => setExpanded(isExpanded)}
     >
       <Container>
-        <Navbar.Brand href="/">Gazi Jarin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" onSelect={() => setExpanded(false)}>
-            <Nav.Link href="/#intro">Home</Nav.Link>
-            <Nav.Link href="/#about">About</Nav.Link>
-            <Nav.Link href="/#experience">Experience</Nav.Link>
-            <Nav.Link href="/#projects">Software</Nav.Link>
-            <Nav.Link href="/#hardware-projects">Hardware</Nav.Link>
-            <Nav.Link href="/#art">Art</Nav.Link>
+            <Nav.Link href="/#intro">{t("nav.home")}</Nav.Link>
+            <Nav.Link href="/#about">{t("nav.about")}</Nav.Link>
+            <Nav.Link href="/#experience">{t("nav.experience")}</Nav.Link>
+            <Nav.Link href="/#projects">{t("nav.software")}</Nav.Link>
           </Nav>
-          <Nav className="ms-auto" onSelect={() => setExpanded(false)}>
-            <Nav.Link href="mailto:gazijarin@gmail.com">
+          <Nav className="ms-auto align-items-center" onSelect={() => setExpanded(false)}>
+            <Nav.Link href="mailto:aytacmalkoc@protonmail.com">
               <EmailRoundedIcon style={{ fontSize: 20 }} />
             </Nav.Link>
-            <Nav.Link href="https://github.com/gazijarin" target="_blank">
+            <Nav.Link href="https://github.com/aytacmalkoc" target="_blank">
               <GitHubIcon style={{ fontSize: 19 }} />
             </Nav.Link>
             <Nav.Link
-              href="https://www.linkedin.com/in/gazijarin/"
+              href="https://www.linkedin.com/in/aytacmalkoc/"
               target="_blank"
             >
               <LinkedInIcon style={{ fontSize: 21 }} />
             </Nav.Link>
-            <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
-              <BorderColorIcon style={{ fontSize: 20 }} />
-            </Nav.Link>
+            <div className="lang-switch" role="group" aria-label="Language switcher">
+              <button
+                className={`lang-option${i18n.language === "en" ? " active" : ""}`}
+                onClick={() => changeLanguage("en")}
+              >
+                EN
+              </button>
+              <button
+                className={`lang-option${i18n.language === "tr" ? " active" : ""}`}
+                onClick={() => changeLanguage("tr")}
+              >
+                TR
+              </button>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

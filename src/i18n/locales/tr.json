@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "software": "Açık Kaynak"
+  },
+  "intro": {
+    "greeting": "hey, ",
+    "suffix": " burada.",
+    "desc": "İzmir merkezli Kıdemli Full Stack Geliştirici ve maker'ım. Gündüzleri sağlam Laravel sistemleri ve CRM çözümleri tasarlıyor, geceleri özel IoT cihazları veya 3D baskılı prototipler üretiyorum. Temiz kod, otomasyon ve zaman zaman yeni bir deney üzerinde çalışan 3D yazıcının uğultusu beni motive ediyor.",
+    "sayHi": "Merhaba de!"
+  },
+  "about": {
+    "title": "/ hakkımda",
+    "para1": "Bağımsız projelere ve serbest çalışmaya odaklanan Kıdemli Full Stack Geliştirici ve Maker'ım. Kariyerim boyunca Batigöz Sağlık Grubu ve otelfiyat.com gibi şirketler için müşteri adayı yönetim motorları, gelişmiş CRM sistemleri ve yüksek performanslı web uygulamaları geliştirdim.",
+    "para2": "Temel odak noktam, güçlü RESTful API'ler ve kullanıcı odaklı arayüzler aracılığıyla otomatik iş süreçleri oluşturmaktır.",
+    "techStackIntro": "Üzerinde çalıştığım bazı teknolojiler:"
+  },
+  "experience": {
+    "title": "/ deneyim",
+    "jobs": {
+      "batigoz": {
+        "desc": [
+          "Dahili sağlık yönetimi sistemleri ve hasta modüllerinin geliştirilmesine katkıda bulundum.",
+          "Modern web teknolojileri kullanarak full-stack özellikler geliştirerek sistem performansını ve kullanıcı deneyimini iyileştirdim."
+        ]
+      },
+      "idealtur": {
+        "desc": [
+          "Turizm sektöründe hizmet veren Ideal Tur'un otelfiyat.com projesindeki CRM ve Admin modüllerinin geliştirilmesine katıldım.",
+          "Rezervasyon iş akışlarını desteklemek için RESTful API'ler ve backend servisleri tasarlayıp uyguladım."
+        ]
+      },
+      "attelia": {
+        "desc": [
+          "Şirket web sitelerinin ve uygulamalarının geliştirilmesine ve bakımına katıldım.",
+          "Tasarım ve ürün ekipleriyle yakın iş birliği yaparak planlama aşamasından dağıtıma kadar yeni projelerin geliştirilmesine öncülük ettim."
+        ]
+      },
+      "upperearth": {
+        "desc": [
+          "Kurucu ortak olarak tasarım ajansında pek çok kurumsal proje yürüttüm.",
+          "Şirket yönetimi, müşteri ilişkileri ve uçtan uca web çözümleri sunma konularında kapsamlı deneyim kazandım."
+        ]
+      },
+      "fikir": {
+        "desc": [
+          "Frontend tasarım ve backend yönetimine destek sağlayarak birden fazla projede yer aldım.",
+          "Deneyimli geliştiricilerle birlikte çalışarak kişilerarası ve mesleki beceriler geliştirdim."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "/ açık kaynak",
+    "viewAll": "Tümünü gör",
+    "items": {
+      "reactUseStorage": {
+        "desc": "localStorage özelliğini kullanmak için kullanışlı bir React hook'u."
+      },
+      "jsonDb": {
+        "desc": "JSON ile kolay ve hızlı yerel veritabanı sistemi."
+      },
+      "nodeMailRedirector": {
+        "desc": "Bir IMAP e-posta gelen kutusunu izleyen ve belirli anahtar kelimeler içeren e-postaları otomatik olarak belirlenen alıcılara ileten bir Node.js uygulaması."
+      },
+      "phpUse": {
+        "desc": "Windows'ta birden fazla PHP sürümü arasında kolayca geçiş yapmanızı sağlayan basit bir araç."
+      },
+      "novaToast": {
+        "desc": "Nova Toast, yüksek performanslı web uygulamaları için tasarlanmış modern, hafif ve framework bağımsız bir bildirim kütüphanesidir."
+      },
+      "arduinoMonitorAmbientLight": {
+        "desc": "Arduino tabanlı monitör ortam ışığı yönetim uygulaması."
+      }
+    }
+  },
+  "credits": {
+    "builtBy": "Aytac Malkoc tarafından düzenlendi,",
+    "designerName": "orijinal tasarım: Gazi Jarin",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

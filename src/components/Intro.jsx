@@ -3,37 +3,32 @@ import "../styles/Intro.css";
 import { TypeAnimation } from "react-type-animation";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import FadeInSection from "./FadeInSection";
-import AsciiPortrait from "./AsciiPortrait";
+import { useTranslation } from "react-i18next";
 
 const Intro = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="intro">
-      <div className="intro-simulation">
-        <AsciiPortrait />
-      </div>
       <div className="intro-block">
         <div className="intro-title">
-          {"hi, "}
+          {t("intro.greeting")}
           <span className="intro-name">
             <TypeAnimation
-              sequence={["gazi"]}
+              sequence={["aytac"]}
               wrapper="span"
               cursor={false}
               repeat={0}
             />
           </span>
-          {" here."}
+          {t("intro.suffix")}
           <span className="intro-cursor">|</span>
         </div>
         <FadeInSection>
-          <div className="intro-desc">
-            Software engineer and artist in New York City. I build ML models at
-            Google by day and make strange little projects at the intersection
-            of tech and art by night. Occasionally both happen at the same time.
-          </div>
-          <a href="mailto:gazijarin@gmail.com" className="intro-contact">
+          <div className="intro-desc">{t("intro.desc")}</div>
+          <a href="mailto:aytacmalkoc@protonmail.com" className="intro-contact">
             <EmailRoundedIcon />
-            {" Say hi!"}
+            {" " + t("intro.sayHi")}
           </a>
         </FadeInSection>
       </div>

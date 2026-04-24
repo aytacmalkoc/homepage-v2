@@ -1,7 +1,7 @@
 .navbar {
     background-color: var(--navy) !important;
     color: var(--lightest-slate) !important;
-    font-family: 'NTR';
+    font-family: "Nunito";
     font-weight: bold;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--lightest-navy);
@@ -12,7 +12,7 @@
   }
 
   .navbar-brand:hover {
-    color: var(--green-bright) !important;
+    color: var(--yellow) !important;
   }
 
   .nav-link {
@@ -21,7 +21,42 @@
   }
 
   .nav-link:hover {
-    color: var(--green-bright) !important;
+    color: var(--yellow) !important;
+  }
+
+  .lang-switch {
+    display: flex;
+    align-items: center;
+    background-color: var(--lightest-navy);
+    border-radius: 20px;
+    padding: 3px;
+    gap: 2px;
+    margin-left: 10px;
+  }
+
+  .lang-option {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--slate);
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding: 4px 11px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+    line-height: 1;
+  }
+
+  .lang-option.active {
+    background-color: var(--yellow);
+    color: var(--navy);
+  }
+
+  .lang-option:hover:not(.active) {
+    color: var(--lightest-slate);
   }
 
   @media only screen and (max-width: 800px) {
@@ -40,6 +75,12 @@
     }
 
     .nav-link:focus, .nav-link:active, .nav-link:hover {
-        color: var(--green-bright) !important;
+        color: var(--yellow) !important;
+    }
+
+    .lang-switch {
+      margin-left: 0;
+      margin-top: 8px;
+      margin-bottom: 4px;
     }
   }

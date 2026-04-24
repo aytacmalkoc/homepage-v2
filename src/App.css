@@ -29,7 +29,7 @@
 }
 
 .App {
-  font-family: "NTR";
+  font-family: "Nunito";
   background-color: var(--navy);
   color: var(--lightest-slate);
   display: flex;
@@ -46,7 +46,7 @@
 
 a {
   text-decoration: none !important;
-  color: var(--green-bright);
+  color: var(--yellow);
 }
 
 a:hover {
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .section-title {
-  font-family: "NTR", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
