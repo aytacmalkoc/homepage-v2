@@ -22,32 +22,29 @@
     "jobs": {
       "batigoz": {
         "desc": [
-          "Contributed to the development of internal healthcare management systems and patient-facing modules.",
-          "Worked on full-stack features using modern web technologies, improving system performance and user experience."
+          "Developed a dynamic lead assignment engine and an advanced task tracking system by managing Meta and Google integrations in a Laravel-based CRM project. [cite: 13]"
         ]
       },
       "idealtur": {
         "desc": [
-          "Took part in the development of CRM & Admin modules in the otelfiyat.com project of Ideal Tur, a company serving in the tourism sector.",
-          "Designed and implemented RESTful APIs and backend services to support booking and reservation workflows."
+          "Took part in the development of CRM and management (admin) modules with Laravel for the otelfiyat.com project of Ideal Tur, operating in the tourism sector. [cite: 17]"
         ]
       },
       "attelia": {
         "desc": [
-          "Participated in the development and maintenance of company websites and applications.",
-          "Led the development of new projects from planning through deployment, collaborating closely with design and product teams."
+          "Contributed to the development of web sites and applications for Attelia Health Tour, a company providing services in the health tourism and healthcare sector based in Antalya, Türkiye. [cite: 21]"
         ]
       },
       "upperearth": {
         "desc": [
-          "Carried out many corporate works in the design agency as a co-founder.",
-          "Gained extensive experience in company management, client relations, and delivering end-to-end web solutions."
+          "Participated in the development of numerous web applications and API services as a Fullstack Developer, primarily using Laravel. [cite: 25]",
+          "Took an active role in advancing application development processes within the organization. [cite: 26]"
         ]
       },
       "fikir": {
         "desc": [
-          "Took part in multiple projects, providing support for frontend design and backend management.",
-          "Developed interpersonal and professional skills while working alongside experienced developers."
+          "Had the opportunity to work on various corporate projects and the company's SaaS projects during my internship. [cite: 30]",
+          "Improved my application development skills by actively using HTML, CSS, jQuery, CodeIgniter, and MySQL technologies. [cite: 31]"
         ]
       }
     }

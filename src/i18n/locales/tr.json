@@ -22,32 +22,29 @@
     "jobs": {
       "batigoz": {
         "desc": [
-          "Dahili sağlık yönetimi sistemleri ve hasta modüllerinin geliştirilmesine katkıda bulundum.",
-          "Modern web teknolojileri kullanarak full-stack özellikler geliştirerek sistem performansını ve kullanıcı deneyimini iyileştirdim."
+          "Laravel tabanlı bir CRM projesinde; Meta ve Google entegrasyonlarını yöneterek, dinamik bir lead assignment engine (aday müşteri dağıtım motoru) ve gelişmiş bir görev takip sistemi geliştirdim."
         ]
       },
       "idealtur": {
         "desc": [
-          "Turizm sektöründe hizmet veren Ideal Tur'un otelfiyat.com projesindeki CRM ve Admin modüllerinin geliştirilmesine katıldım.",
-          "Rezervasyon iş akışlarını desteklemek için RESTful API'ler ve backend servisleri tasarlayıp uyguladım."
+          "Turizm sektöründe hizmet veren Ideal Tur şirketinin otelfiyat.com projesinde CRM ve yönetim (admin) modüllerinin Laravel ile geliştirilmesinde görev aldım."
         ]
       },
       "attelia": {
         "desc": [
-          "Şirket web sitelerinin ve uygulamalarının geliştirilmesine ve bakımına katıldım.",
-          "Tasarım ve ürün ekipleriyle yakın iş birliği yaparak planlama aşamasından dağıtıma kadar yeni projelerin geliştirilmesine öncülük ettim."
+          "Antalya/Türkiye merkezli, sağlık turizmi ve sağlık sektöründe hizmet veren Attelia Health Tour şirketinin web siteleri ve uygulamalarının geliştirilmesinde görev aldım."
         ]
       },
       "upperearth": {
         "desc": [
-          "Kurucu ortak olarak tasarım ajansında pek çok kurumsal proje yürüttüm.",
-          "Şirket yönetimi, müşteri ilişkileri ve uçtan uca web çözümleri sunma konularında kapsamlı deneyim kazandım."
+          "Fullstack geliştirici olarak, ağırlıklı olarak Laravel kullanarak birçok web uygulaması ve API servisinin geliştirilmesinde yer aldım.",
+          "Organizasyon içinde uygulama geliştirme süreçlerinin ilerletilmesinde de aktif rol oynadım."
         ]
       },
       "fikir": {
         "desc": [
-          "Frontend tasarım ve backend yönetimine destek sağlayarak birden fazla projede yer aldım.",
-          "Deneyimli geliştiricilerle birlikte çalışarak kişilerarası ve mesleki beceriler geliştirdim."
+          "Stajım süresince birçok kurumsal projede ve şirketin SASS projelerinde çalışma fırsatı buldum.",
+          "HTML, CSS, jQuery, CodeIgniter ve MySQL teknolojilerini aktif olarak kullanarak uygulama geliştirme konusunda kendimi geliştirme şansı yakaladım."
         ]
       }
     }
